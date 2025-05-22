@@ -159,10 +159,6 @@ shap = np.array(result["shapley_values"])
 print("shap：\n", shap)
 
 
-print("\ncombo and payoff:")
-for combo, payoff in result["combinations"]:
-    print(f" combo{combo}: payoff {payoff:.2f}")
-
 "3."
 
 def calculate_deng_entropy(m):
